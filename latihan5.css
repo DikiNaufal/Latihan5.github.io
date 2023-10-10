@@ -75,3 +75,342 @@ header.navbar-container .nav-list li:hover a {
   }
 }
 /*--Akhir Header--*/
+/*--Main--*/
+main {
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 2rem 4rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+/* Content1 */
+main .content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-block-end: 100px;
+}
+main .content .content-description {
+  flex: 1 1;
+}
+main .content .content-description .title {
+  font-size: 3.5rem;
+  margin-block: 1rem;
+}
+main .content .content-description p {
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+}
+main .content .content-description button {
+  padding: 0.8rem 2.5rem;
+  margin-block-start: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-color: black;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+main .content .content-description button:hover {
+  border: 3px solid black;
+  color: black;
+  background-color: transparent;
+}
+main .content .content-image {
+  flex: 1;
+  display: flex;
+}
+main .content .content-image img {
+  margin: auto;
+  min-width: 250px;
+  width: 500px;
+}
+/* Content2 */
+main .content2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-block-end: 100px;
+}
+main .content2 .content-description {
+  flex: 1 1;
+}
+main .content2 .content-description .title {
+  font-size: 3.5rem;
+  margin-block: 1rem;
+}
+main .content2 .content-description p {
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+}
+main .content2 .content-description button {
+  padding: 0.8rem 2.5rem;
+  margin-block-start: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-color: black;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+main .content2 .content-description button:hover {
+  border: 3px solid black;
+  color: black;
+  background-color: transparent;
+}
+main .content2 .content-image {
+  flex: 1;
+  display: flex;
+}
+main .content2 .content-image img {
+  margin: auto;
+  min-width: 250px;
+  width: 500px;
+}
+main .content2 .content-description .indeks-angka {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+}
+main .content2 .content-description .indeks-angka h3 {
+  font-size: 30px;
+}
+main .content2 .content-description .indeks-angka hr {
+  width: 50%;
+  height: 5px;
+  background-color: black;
+  position: relative;
+  bottom: 15px;
+}
+main .content2 .content-description .indeks-angka p {
+  position: relative;
+  bottom: 15px;
+}
+/* Content3 */
+main .content3 .content-description h1 {
+  font-size: 3rem;
+  margin-block: 1rem;
+}
+main .content3 .content-description .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main .content3 .content-description .pembungkus-card {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+main .content3 .content-description .contact p {
+  font-size: 20px;
+}
+main .content3 .content-description .contact button {
+  font-size: large;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: black;
+  color: white;
+}
+/* Content4 */
+main .content4 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block-start: 50px;
+}
+main .content4 .pembungkus-card {
+  display: flex;
+  flex-direction: row;
+  gap: 92px;
+}
+main .content4 .pembungkus-card .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 30%;
+}
+main .content4 .pembungkus-card .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+main .content4 .pembungkus-card .card .container {
+  padding: 2px 16px;
+}
+main .content4 .pembungkus-card .card .container h4 {
+  font-family: "Quicksand", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Content5 */
+main .content5 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block-end: 100px;
+  padding-block-start: 100px;
+}
+main .content5 .pembungkus-content {
+  display: flex;
+  flex-direction: column;
+  padding-block-start: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  line-height: 25px;
+}
+main .content5 .pembungkus-content .pembungkus1 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+main .content5 .pembungkus-content .pembungkus1 .content-subject {
+  padding-left: 42px;
+}
+main .content5 .pembungkus-content .pembungkus2 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+main .content5 .pembungkus-content .pembungkus2 .content-number {
+  padding-left: 48px;
+}
+main .content5 .pembungkus-content .pembungkus3 .content-message {
+  padding-bottom: 20px;
+}
+main .content5 .pembungkus-content .pembungkus3 .content-button {
+  display: flex;
+  justify-content: center;
+}
+main .content5 .pembungkus-content .pembungkus3 .content-button button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+/* Aside */
+main aside {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-end: 0;
+}
+main aside .social-media {
+  height: 100%;
+  display: flex;
+}
+main aside .social-media ul {
+  padding: 1.5rem 1rem;
+  margin: auto;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: black;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+main aside .social-media li {
+  list-style-type: none;
+}
+main aside .social-media li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+main aside .social-media li a:hover {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  header.navbar-container {
+    flex-direction: column;
+  }
+  header.navbar-container .nav-list ul {
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+  }
+  main {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  /* Content1 */
+  main .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  main .content .content-description .title {
+    font-size: 3rem;
+  }
+  main .content .content-description p {
+    font-size: 1rem;
+  }
+  main .content .content-image {
+    order: -1;
+  }
+  main .content .content-image img {
+    width: 150px;
+  }
+  /* Content2 */
+  main .content2 {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  main .content2 .content-description .title {
+    font-size: 3rem;
+  }
+  main .content2 .content-description p {
+    font-size: 1rem;
+  }
+  main .content2 .content-description .indeks-angka {
+    padding-top: 10px;
+    display: flex;
+    gap: 6px;
+  }
+  main .content2 .content-description .indeks-angka hr {
+    display: none;
+  }
+  main .content2 .content-description .indeks-angka p {
+    text-align: center;
+    padding-top: 10px;
+  }
+  main .content2 .content-image {
+    order: -1;
+  }
+  main .content2 .content-image img {
+    width: 150px;
+  }
+  /* Content3 */
+  main .content3 {
+    padding-block-end: 100px;
+  }
+  /* Content4 */
+  main .content4 {
+    display: none;
+  }
+
+  /* Content5 */
+  main .content5 {
+    display: none;
+  }
+  main aside {
+    display: none;
+  }
+}
+/*--Akhir Main--*/
